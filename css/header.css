@@ -1,0 +1,115 @@
+header {
+}
+header .wrap {
+  max-width: 1530px;
+  margin: 0 auto;
+}
+header .wrap div.gnb {
+  padding: 0 60px 0 30px;
+  box-sizing: border-box;
+  height: 135px;
+}
+header .wrap div.gnb div.top {
+  justify-content: space-between;  
+}
+header .wrap div.gnb div.top div.top1 {
+
+}
+header .wrap div.gnb div.top div.top1 ul {
+  
+}
+header .wrap div.gnb div.top div.top1 ul li {
+
+}
+header .wrap div.gnb div.top div.top1 ul li a {
+  width: 99px;
+  height: 27px;
+  display: inline-block;
+  text-align: center;
+  line-height: 27px;
+  font-size: 12px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+header .wrap div.gnb div.top div.top1 ul li a.act{
+  background-color: #F8B915;
+}
+header .wrap div.gnb div.top div.top1 ul li a.act1{
+  background-color: black;
+  color: white;
+  border: 0;
+}
+header .wrap div.gnb div.top div.top1 ul li a.act1:hover{
+  color: black;
+  background-color: #F8B915;
+}
+header .wrap div.gnb div.top div.top2 {
+
+}
+header .wrap div.gnb div.top div.top2 ul {
+  
+  padding: 25px 0 0;
+}
+header .wrap div.gnb div.top div.top2 ul li {
+
+}
+header .wrap div.gnb div.top div.top2 ul li::after{
+  content:"";
+  display: block;
+  width: 1px;
+  height: 13px;
+  transform: translateY(-50%);
+  border-left: 1px solid #9D8F75;
+  position: absolute;
+  top: 36px;
+}
+header .wrap div.gnb div.top div.top2 ul li:nth-child(1){
+
+}
+header .wrap div.gnb div.top div.top2 ul li:nth-child(3){
+  border-right: none; 
+}
+header .wrap div.gnb div.top div.top2 ul li a {
+  font-size: 12px;
+  color: #9D8F75;
+  padding: 0 7px 0 8px;
+}
+header .wrap div.gnb div.bot {
+  justify-content: space-between;
+  position: relative;
+}
+header .wrap div.gnb div.bot h1 {
+  
+}
+header .wrap div.gnb div.bot h1 a {
+  background-image: url(../img/logo.png);
+  width: 480px;
+  height: 135px;
+  display: inline-block;
+  font-size: 0;
+  position: absolute;
+  box-sizing: border-box;
+  text-align: center;
+  top: -38px;
+}
+header .wrap div.gnb div.bot h1 a::before{
+  content: "";
+
+}
+header .wrap div.gnb div.bot ul {
+  
+  position: relative;
+}
+header .wrap div.gnb div.bot ul li {
+  padding: 0 15px;
+}
+header .wrap div.gnb div.bot ul li::before{
+  content:"";
+}
+header .wrap div.gnb div.bot ul li a {
+  font-size: 22px;
+  line-height: 5;
+  padding: 0 20px;
+  font-weight: 700;
+  display: block;
+}

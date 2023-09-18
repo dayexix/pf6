@@ -1,0 +1,38 @@
+#title {
+  
+}
+#title div.wrap {
+  
+  width: 100%;
+}
+#title div.wrap a {
+  
+}
+#title div.titleani a img {
+  width: 1903px;
+}
+#title .slick-prev{
+  width: 40px;
+  height: 40px;
+  display: block;
+  left: 235px;
+  z-index: 1;
+  border-left: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  transform: rotate(45deg);
+  border-right: none;
+  border-top: none;
+}
+#title .slick-next{
+  right: 235px;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-right: 1px solid #d7d7d7;
+  border-top: 1px solid #d7d7d7;
+  border-left: none;
+  border-bottom: none;
+  transform: rotate(45deg);
+  color: transparent;
+  font-size: 0;
+}

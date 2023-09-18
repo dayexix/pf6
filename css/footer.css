@@ -1,0 +1,113 @@
+footer {
+  max-width: 100%;
+  border-top: 1px solid #ddd;
+  padding-bottom: 30px;
+}
+footer .wrap {
+  max-width: 1530px;
+  padding-top: 55px;
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+}
+footer .wrap div.toplink {
+  
+}
+footer .wrap div.toplink ul {
+  display: flex;
+}
+footer .wrap div.toplink ul li {
+  padding: 0 10px 0 12px;
+  border-right: 1px solid #737373;
+  font-size: 14px;
+}
+footer .wrap div.toplink ul li:nth-child(5){
+  border: none;
+}
+footer .wrap div.toplink ul li a {
+  color: #737373;
+}
+footer .wrap div.toplink ul li a.privacy{
+  color: black;
+  font-weight: 800;
+}
+footer .wrap div.midlink {
+  margin: 28px 0;
+}
+footer .wrap div.midlink img {
+  
+}
+footer .wrap div.midlink > img{
+  width: 201px;
+}
+footer .wrap div.midlink ul {
+  padding: 0 32px;
+  margin: 0 32px;
+  position: relative;
+}
+footer .wrap div.midlink ul::before{
+  content:"";
+  display: block;
+  width: 1px;
+  height: 13px;
+  background: #B6B6B6;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 0;
+}
+footer .wrap div.midlink ul::after{
+  content:"";
+  content:"";
+  display: block;
+  width: 1px;
+  height: 13px;
+  background: #B6B6B6;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 0;
+}
+footer .wrap div.midlink ul li {
+  
+}
+footer .wrap div.midlink ul li a {
+  
+}
+footer .wrap div.midlink ul li a img {
+  
+  display: inline-block;
+  margin: 0 10px;
+}
+footer .wrap address {
+  
+  margin: 10px 0 5px -9px;
+  color: #444;
+  line-height: 2;
+  font-size: 13px;
+}
+footer .wrap address span {
+  padding: 0 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  font-family: Noto Sans KR;
+}
+footer .wrap address span::after{
+  content:"";
+  width: 2px;
+  height: 12px;
+  display: block;
+  background-image: url(../img/line_svg.gif);
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+footer .wrap address span.no_line::after{
+  content:"";
+  background-size: 0;
+}
+footer .wrap p{
+  color: #444;
+  font-size: 14px;
+}

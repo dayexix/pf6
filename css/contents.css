@@ -1,0 +1,141 @@
+#contents {
+  
+  background-color: #FFCB44;
+}
+#contents .wrap {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  overflow: visible;
+  position: relative;
+}
+#contents .wrap::before{
+  content: "";
+  display: block;
+  width: 1px;
+  background-color: white;
+  position: absolute;
+  right: 50%;
+  top: 15px;
+  height: 94%;
+}
+#contents .wrap div.cbox {
+  width: 50%;
+  padding: 60px;
+  height: auto;
+  box-sizing: border-box;
+}
+#contents .wrap div.cbox h2 {
+  font-family: 'Roboto';
+  font-weight: 800;
+  margin-bottom: 57px;
+  text-align: center;
+  font-size: 26px;
+}
+#contents .wrap div.cbox div.form {
+  
+}
+#contents .wrap div.cbox div.form form {
+  
+}
+#contents .wrap div.cbox div.form form input {
+  width: 420px;
+  height: 60px;
+  font-size: 16px;
+  border: none;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+#contents .wrap div.cbox div.form form button {
+  height: 60px;
+  width: 60px;
+  background-color: black;
+  position: absolute;
+  background-image: url(../img/search.svg);
+  font-size: 0;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center;
+  border: none;
+}
+#contents .wrap div.cbox div.form div.store {
+  margin-top: 30px;
+}
+#contents .wrap div.cbox div.form div.store div.list {
+  border-top: 1px #fff solid;
+  padding: 20px 0;
+}
+#contents .wrap div.cbox div.form div.store div.list ul {
+  
+  height: 109px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+#contents .wrap div.cbox div.form div.store div.list ul li {
+  
+  line-height: 25px;
+}
+#contents .wrap div.cbox div.form div.store div.list ul li h3 {
+  
+  display: inline-block;
+  padding-right: 10px;
+}
+#contents .wrap div.cbox div.form div.store div.list ul li a { 
+  background-color: black;
+  color: white;
+  padding: 5px 11px;
+  border-radius: 20px;
+  line-height: 22px;
+  display: inline-block;
+}
+#contents .wrap div.cbox div.form div.store div.list ul li p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  line-height: 2.5;
+}
+#contents .wrap div.dbox {
+  
+  width: 50%;
+}
+#contents .wrap div.dbox h2 {
+  padding: 60px 0;
+  font-family: 'Roboto';
+  font-weight: 800;
+  text-align: center;
+  font-size: 26px;
+}
+#contents .wrap div.dbox ul {
+  
+  display: flex;
+  justify-content: center;
+}
+#contents .wrap div.dbox ul li {
+  padding: 0 50px;
+}
+#contents .wrap div.dbox ul li a {
+  
+}
+#contents .wrap div.dbox ul li a::before{
+  content:"";
+  background-image: url(../img/event.png);
+  width: 145px;
+  height: 145px;
+  display: block;
+  background-color: white;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: auto 64px;
+  background-position: center;
+}
+#contents .wrap div.dbox ul li a.news::before{
+  content:"";
+  background-image: url{../img/news.png};
+  background-image: url(../img/news.png);
+}
+#contents .wrap div.dbox ul li a span {
+  display: block;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 27px;
+}

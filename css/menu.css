@@ -1,0 +1,66 @@
+#menu {
+  
+}
+#menu .wrap {
+  margin-top: 66px;
+  text-align: center;
+  position: relative;
+}
+#menu .wrap h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 80px;
+}
+#menu .wrap div.menu {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 77px;
+  display: block;
+  padding: 0;
+}
+#menu .wrap div.menu ul {
+  display: flex;
+  /*! gap: 100px; */
+}
+#menu .wrap div.menu ul li {
+  max-width: 400px;
+  margin: auto;
+}
+#menu .wrap div.menu ul li a {
+  
+}
+#menu .wrap div.menu ul li a img {
+  margin: auto;
+}
+#menu .wrap div.menu ul li a span {  
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 13px;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+#menu .wrap .slick-prev{
+  border-left: 1px solid #AEAEAE;
+  border-bottom: 1px solid #AEAEAE;
+  transform: rotate(45deg);
+  background-color: transparent;
+  border-right: none;
+  border-top: none;
+}
+#menu .wrap .slick-next{
+  border-right: 1px solid #AEAEAE;
+  border-top: 1px solid #AEAEAE;
+  background-color: transparent;
+  border-left: none;
+  border-bottom: none;
+  transform: rotate(45deg);
+}
+
+
+
+
